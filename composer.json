@@ -1,0 +1,20 @@
+{
+    "name": "chemezov/i2crm-check",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Notebook\\I2crmCheck\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mikhail Chemezov",
+            "email": "michlenanosoft@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "chemezov/i2crm-test": "dev-master"
+    }
+}
